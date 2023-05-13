@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+body{
+    background-color: #767895;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.25);
+}
+
+.container2{
+    width: 1170px;
+    margin: 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.25);
+}
+
+.gfx{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.25);
+}
+
+.gfx div{
+    position: relative;
+}
+
+.update{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.25);
+}
+
+.update div{
+    position: relative;
+}
+
+.text{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 64px;
+    position: absolute;
+    letter-spacing: 10px;
+    top: 75%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.val{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    cursor: pointer;
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #FF4655;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover{
+    background-color: #1f202b;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.25);
+    transition: 1s;
+}
+
+.menu__inner{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f202b;
+    box-shadow: 0 5px 0 #FF4655;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.nav li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a {
+	position: relative;
+	cursor: pointer;
+	line-height: 2;
+}
+
+a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #FF4655;
+	content: "";
+	transition: width 0.4s ease-out;
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%;
+}
+
+.items__inner{
+    margin: 0px;
+    background-color: #1f202b;
+    box-shadow: 0 5px 0 #FF4655;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    box-shadow: 0 -5px 0 #FF4655;
+}
+
+.element{
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.numb{
+    color: #fff;
+    font-size: 24px;
+}
+
+.desc{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.game__dw{
+    background-color: #252635;
+    margin-top: -5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__inner{
+    margin: 0px auto;
+}
+
+.val2{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
+}
+
+.btn2{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn2:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 1s;
+}
+
+.val3{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
+}
+
+.copyright{
+    background-color: #1f202b;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p{
+    width: 650px;
+    padding: 25px;
+    text-align: center;
+    color: #3a3c54;
+}
+
+.info{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.25);
+}
